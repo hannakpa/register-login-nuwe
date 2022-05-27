@@ -1,0 +1,234 @@
+.bg-image {
+  padding: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-height: 100vh;
+}
+
+.bg-image img {
+  opacity: 0.3;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.m-1 {
+  margin: 12px;
+}
+
+.m-2 {
+  margin: 24px;
+}
+
+.m-3 {
+  margin: 36px;
+}
+
+.m-4 {
+  margin: 48px;
+}
+
+.m-5 {
+  margin: 60px;
+}
+
+.m-6 {
+  margin: 72px;
+}
+
+.m-7 {
+  margin: 84px;
+}
+
+.m-8 {
+  margin: 96px;
+}
+
+.m-9 {
+  margin: 108px;
+}
+
+.p-1 {
+  padding: 12px;
+}
+
+.p-2 {
+  padding: 24px;
+}
+
+.p-3 {
+  padding: 36px;
+}
+
+.p-4 {
+  padding: 48px;
+}
+
+.p-5 {
+  padding: 60px;
+}
+
+.p-6 {
+  padding: 72px;
+}
+
+.p-7 {
+  padding: 84px;
+}
+
+.p-8 {
+  padding: 96px;
+}
+
+.p-9 {
+  padding: 108px;
+}
+
+.p-t-b-1 {
+  padding: 12px 0;
+}
+
+.p-t-b-2 {
+  padding: 24px 0;
+}
+
+.p-t-b-3 {
+  padding: 36px 0;
+}
+
+.p-t-b-4 {
+  padding: 48px 0;
+}
+
+.p-t-b-5 {
+  padding: 60px 0;
+}
+
+.p-t-b-6 {
+  padding: 72px 0;
+}
+
+.p-t-b-7 {
+  padding: 84px 0;
+}
+
+.p-t-b-8 {
+  padding: 96px 0;
+}
+
+.p-t-b-9 {
+  padding: 108px 0;
+}
+
+.w-1 {
+  width: 25%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 75%;
+}
+
+.icon-reg {
+  font-size: 36px;
+  color: #0b2d41;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+}
+
+.title-subtitle h3 {
+  color: #0b2d41;
+  line-height: 50px;
+}
+
+.title-subtitle h5 {
+  color: rgba(116, 152, 144, 0.978);
+  line-height: 30px;
+}
+
+.description {
+  color: rgba(116, 152, 144, 0.978);
+  font-size: 12px;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "Tiro Kannada", serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(20deg, #166390 0%, #8de9df 95%);
+}
+
+.right-box {
+  background-color: whitesmoke;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100vh;
+}
+
+.left-box {
+  position: relative;
+}
+
+.left-box .quote-box {
+  background: #0b2d41;
+  background: rgba(11, 45, 65, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin: 3rem !important;
+  height: 80%;
+  width: 80%;
+  padding: 20px !important;
+}
+
+.left-box .quote-box .quote {
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
+  font-style: oblique;
+  width: 90%;
+  line-height: 35px;
+}
+
+.card-box {
+  padding: 20px !important;
+  margin: 20px !important;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 2px 3px 0 #3d3d3d;
+          box-shadow: 0 2px 3px 0 #3d3d3d;
+}
+
+.card-box:hover {
+  border: 2px solid rgba(116, 152, 144, 0.978);
+  cursor: pointer;
+  background-color: white;
+}
+
+.space-around-box {
+  padding: 20px !important;
+  margin: 20px !important;
+}
+/*# sourceMappingURL=app.css.map */

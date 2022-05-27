@@ -1,0 +1,46 @@
+@mixin reset-pm {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@mixin innerbox-p{
+  padding: 20px !important;
+}
+
+@mixin space-around-box{
+  padding: 20px !important;
+  margin: 20px !important;
+}
+
+@mixin background-opacity($color, $opacity) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+
+
+@for $i from 1 to $limit {
+  .m-#{$i} {
+    margin: $i * $unit;
+  }
+}
+
+@for $i from 1 to $limit {
+  .p-#{$i} {
+    padding: $i * $unit;
+  }
+}
+
+
+
+@for $i from 1 to $limit {
+  .p-t-b-#{$i}{
+    padding: $i *$unit 0;
+  }
+}
+
+@for $i from 1 to 4 {
+  .w-#{$i}{
+    width: $i *25%;
+  }
+}

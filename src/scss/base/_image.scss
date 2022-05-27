@@ -1,0 +1,15 @@
+.bg-image{
+  padding:0 !important;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  max-height: 100vh;
+
+  
+  img{
+  opacity: 0.3;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  }
+}

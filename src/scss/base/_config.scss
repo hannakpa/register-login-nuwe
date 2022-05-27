@@ -1,0 +1,21 @@
+//colors
+
+$primary-color: #0b2d41;
+$secondary-color: rgba(116, 152, 144, 0.978);
+$terciary-color: whitesmoke;
+$box-shadow: 0 2px 3px 0 rgb(61, 61, 61);
+$color-top: #166390;
+$color-bottom: #8de9df;
+$gradient-background: linear-gradient(20deg, $color-top 0%, $color-bottom 95%);
+
+$primary-font:'Tiro Kannada', serif;
+
+$limit: 10;
+$unit: 12px;
+
+$unit-border: 2px;
+$radius: 15px;
+
+//links
+$a-tags: 'a, a:active, a:visited';
+$a-tags-hover: 'a:hover';

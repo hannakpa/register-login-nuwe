@@ -1,0 +1,71 @@
+@import '../base/config'; //variable colors, font
+@import '../base/image';
+@import '../utils/utils';
+@import '../base/icons';
+@import '../base/text';
+
+*{
+  @include reset-pm();
+    font-family: $primary-font;
+}
+
+body { 
+  height: 100vh;
+  background: $gradient-background; // darle una altura al body para que el gradiente se adapte 
+
+}
+
+
+
+.right-box{
+  background-color: $terciary-color;
+  @include reset-pm();
+  height: 100vh;
+}
+
+
+.left-box{
+  position: relative;
+ // @include innerbox-p;
+ .quote-box{
+   @include background-opacity($primary-color, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   margin: 3rem !important;
+   height: 80%;
+   width:80%;
+   @include innerbox-p;
+
+   
+.quote {
+    color: $terciary-color;
+    font-size: $unit*1.5;
+    text-align: center;
+    font-style: oblique;
+    width: 90%;
+    line-height: 35px;
+
+ }
+
+  }
+
+
+}
+
+.card-box {
+  @include space-around-box();
+  border: $unit-border solid $terciary-color ;
+  border-radius: $radius;
+  box-shadow: $box-shadow;
+  &:hover{
+    border: $unit-border solid $secondary-color;
+    cursor:pointer;
+    background-color: white;
+  }
+}
+
+.space-around-box{
+  @include space-around-box();
+}
